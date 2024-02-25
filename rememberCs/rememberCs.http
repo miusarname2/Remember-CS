@@ -1,0 +1,6 @@
+@rememberCs_HostAddress = http://localhost:5128
+
+GET {{rememberCs_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
