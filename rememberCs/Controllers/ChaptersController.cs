@@ -12,47 +12,47 @@ namespace rememberCs.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UsersController : ControllerBase
+    public class ChaptersController : ControllerBase
     {
         private readonly UniversityContext _context;
 
-        public UsersController(UniversityContext context)
+        public ChaptersController(UniversityContext context)
         {
             _context = context;
         }
 
-        // GET: api/Users
+        // GET: api/Chapters
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Users>>> GetUsers()
+        public async Task<ActionResult<IEnumerable<Chapters>>> GetChapters()
         {
-            return await _context.Users.ToListAsync();
+            return await _context.Chapters.ToListAsync();
         }
 
-        // GET: api/Users/5
+        // GET: api/Chapters/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Users>> GetUsers(int id)
+        public async Task<ActionResult<Chapters>> GetChapters(int id)
         {
-            var users = await _context.Users.FindAsync(id);
+            var chapters = await _context.Chapters.FindAsync(id);
 
-            if (users == null)
+            if (chapters == null)
             {
                 return NotFound();
             }
 
-            return users;
+            return chapters;
         }
 
-        // PUT: api/Users/5
+        // PUT: api/Chapters/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutUsers(int id, Users users)
+        public async Task<IActionResult> PutChapters(int id, Chapters chapters)
         {
-            if (id != users.Id)
+            if (id != chapters.Id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(users).State = EntityState.Modified;
+            _context.Entry(chapters).State = EntityState.Modified;
 
             try
             {
@@ -60,7 +60,7 @@ namespace rememberCs.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!UsersExists(id))
+                if (!ChaptersExists(id))
                 {
                     return NotFound();
                 }
@@ -73,36 +73,36 @@ namespace rememberCs.Controllers
             return NoContent();
         }
 
-        // POST: api/Users
+        // POST: api/Chapters
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Users>> PostUsers(Users users)
+        public async Task<ActionResult<Chapters>> PostChapters(Chapters chapters)
         {
-            _context.Users.Add(users);
+            _context.Chapters.Add(chapters);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetUsers", new { id = users.Id }, users);
+            return CreatedAtAction("GetChapters", new { id = chapters.Id }, chapters);
         }
 
-        // DELETE: api/Users/5
+        // DELETE: api/Chapters/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteUsers(int id)
+        public async Task<IActionResult> DeleteChapters(int id)
         {
-            var users = await _context.Users.FindAsync(id);
-            if (users == null)
+            var chapters = await _context.Chapters.FindAsync(id);
+            if (chapters == null)
             {
                 return NotFound();
             }
 
-            _context.Users.Remove(users);
+            _context.Chapters.Remove(chapters);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
-        private bool UsersExists(int id)
+        private bool ChaptersExists(int id)
         {
-            return _context.Users.Any(e => e.Id == id);
+            return _context.Chapters.Any(e => e.Id == id);
         }
     }
 }
