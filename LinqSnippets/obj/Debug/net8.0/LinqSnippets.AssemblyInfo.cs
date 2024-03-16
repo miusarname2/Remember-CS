@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinqSnippets")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+833b941ceff9f5f8bf073ef39002b3a35618bb8e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9aa504ffad258948cf2422f6434e11c33c181418")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinqSnippets")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinqSnippets")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
