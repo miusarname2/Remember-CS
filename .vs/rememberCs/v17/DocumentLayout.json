@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Oscar Alvarez\\source\\repos\\rememberCs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A708BB21-920C-4604-A903-F1119B06F7C9}|rememberCs\\rememberCs.csproj|c:\\users\\oscar alvarez\\source\\repos\\remembercs\\remembercs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A708BB21-920C-4604-A903-F1119B06F7C9}|rememberCs\\rememberCs.csproj|solutionrelative:remembercs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A708BB21-920C-4604-A903-F1119B06F7C9}|rememberCs\\rememberCs.csproj|c:\\users\\oscar alvarez\\source\\repos\\remembercs\\remembercs\\helpers\\jwthelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A708BB21-920C-4604-A903-F1119B06F7C9}|rememberCs\\rememberCs.csproj|solutionrelative:remembercs\\helpers\\jwthelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A708BB21-920C-4604-A903-F1119B06F7C9}|rememberCs\\rememberCs.csproj|c:\\users\\oscar alvarez\\source\\repos\\remembercs\\remembercs\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A708BB21-920C-4604-A903-F1119B06F7C9}|rememberCs\\rememberCs.csproj|solutionrelative:remembercs\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A708BB21-920C-4604-A903-F1119B06F7C9}|rememberCs\\rememberCs.csproj|c:\\users\\oscar alvarez\\source\\repos\\remembercs\\remembercs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A708BB21-920C-4604-A903-F1119B06F7C9}|rememberCs\\rememberCs.csproj|solutionrelative:remembercs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A708BB21-920C-4604-A903-F1119B06F7C9}|rememberCs\\rememberCs.csproj|c:\\users\\oscar alvarez\\source\\repos\\remembercs\\remembercs\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A708BB21-920C-4604-A903-F1119B06F7C9}|rememberCs\\rememberCs.csproj|solutionrelative:remembercs\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A708BB21-920C-4604-A903-F1119B06F7C9}|rememberCs\\rememberCs.csproj|c:\\users\\oscar alvarez\\source\\repos\\remembercs\\remembercs\\models\\datamodels\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A708BB21-920C-4604-A903-F1119B06F7C9}|rememberCs\\rememberCs.csproj|solutionrelative:remembercs\\models\\datamodels\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A708BB21-920C-4604-A903-F1119B06F7C9}|rememberCs\\rememberCs.csproj|c:\\users\\oscar alvarez\\source\\repos\\remembercs\\remembercs\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A708BB21-920C-4604-A903-F1119B06F7C9}|rememberCs\\rememberCs.csproj|solutionrelative:remembercs\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50BD7E69-D074-4472-9D2C-A5AC53087B8C}|LinqSnippets\\LinqSnippets.csproj|c:\\users\\oscar alvarez\\source\\repos\\remembercs\\linqsnippets\\snippets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50BD7E69-D074-4472-9D2C-A5AC53087B8C}|LinqSnippets\\LinqSnippets.csproj|solutionrelative:linqsnippets\\snippets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A708BB21-920C-4604-A903-F1119B06F7C9}|rememberCs\\rememberCs.csproj|c:\\users\\oscar alvarez\\source\\repos\\remembercs\\remembercs\\models\\datamodels\\usertokens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A708BB21-920C-4604-A903-F1119B06F7C9}|rememberCs\\rememberCs.csproj|solutionrelative:remembercs\\models\\datamodels\\usertokens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,76 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentsController.cs",
-              "DocumentMoniker": "C:\\Users\\Oscar Alvarez\\source\\repos\\rememberCs\\rememberCs\\Controllers\\StudentsController.cs",
-              "RelativeDocumentMoniker": "rememberCs\\Controllers\\StudentsController.cs",
-              "ToolTip": "C:\\Users\\Oscar Alvarez\\source\\repos\\rememberCs\\rememberCs\\Controllers\\StudentsController.cs",
-              "RelativeToolTip": "rememberCs\\Controllers\\StudentsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAtAAAA",
+              "DocumentIndex": 0,
+              "Title": "JwtHelpers.cs",
+              "DocumentMoniker": "C:\\Users\\Oscar Alvarez\\source\\repos\\rememberCs\\rememberCs\\Helpers\\JwtHelpers.cs",
+              "RelativeDocumentMoniker": "rememberCs\\Helpers\\JwtHelpers.cs",
+              "ToolTip": "C:\\Users\\Oscar Alvarez\\source\\repos\\rememberCs\\rememberCs\\Helpers\\JwtHelpers.cs",
+              "RelativeToolTip": "rememberCs\\Helpers\\JwtHelpers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T15:53:37.973Z",
+              "WhenOpened": "2024-03-11T22:42:26.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Oscar Alvarez\\source\\repos\\rememberCs\\rememberCs\\Program.cs",
-              "RelativeDocumentMoniker": "rememberCs\\Program.cs",
-              "ToolTip": "C:\\Users\\Oscar Alvarez\\source\\repos\\rememberCs\\rememberCs\\Program.cs",
-              "RelativeToolTip": "rememberCs\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T15:51:00.944Z",
-              "EditorCaption": ""
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Oscar Alvarez\\source\\repos\\rememberCs\\rememberCs\\appsettings.json",
+              "RelativeDocumentMoniker": "rememberCs\\appsettings.json",
+              "ToolTip": "C:\\Users\\Oscar Alvarez\\source\\repos\\rememberCs\\rememberCs\\appsettings.json",
+              "RelativeToolTip": "rememberCs\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-11T22:38:21.321Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "C:\\Users\\Oscar Alvarez\\source\\repos\\rememberCs\\rememberCs\\Services\\StudentService.cs",
-              "RelativeDocumentMoniker": "rememberCs\\Services\\StudentService.cs",
-              "ToolTip": "C:\\Users\\Oscar Alvarez\\source\\repos\\rememberCs\\rememberCs\\Services\\StudentService.cs",
-              "RelativeToolTip": "rememberCs\\Services\\StudentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Oscar Alvarez\\source\\repos\\rememberCs\\rememberCs\\Models\\DataModels\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "rememberCs\\Models\\DataModels\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\Oscar Alvarez\\source\\repos\\rememberCs\\rememberCs\\Models\\DataModels\\JwtSettings.cs",
+              "RelativeToolTip": "rememberCs\\Models\\DataModels\\JwtSettings.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwA0AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T15:49:01.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-11T22:05:42.317Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IStudentService.cs",
-              "DocumentMoniker": "C:\\Users\\Oscar Alvarez\\source\\repos\\rememberCs\\rememberCs\\Services\\IStudentService.cs",
-              "RelativeDocumentMoniker": "rememberCs\\Services\\IStudentService.cs",
-              "ToolTip": "C:\\Users\\Oscar Alvarez\\source\\repos\\rememberCs\\rememberCs\\Services\\IStudentService.cs",
-              "RelativeToolTip": "rememberCs\\Services\\IStudentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Title": "UserTokens.cs",
+              "DocumentMoniker": "C:\\Users\\Oscar Alvarez\\source\\repos\\rememberCs\\rememberCs\\Models\\DataModels\\UserTokens.cs",
+              "RelativeDocumentMoniker": "rememberCs\\Models\\DataModels\\UserTokens.cs",
+              "ToolTip": "C:\\Users\\Oscar Alvarez\\source\\repos\\rememberCs\\rememberCs\\Models\\DataModels\\UserTokens.cs",
+              "RelativeToolTip": "rememberCs\\Models\\DataModels\\UserTokens.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T15:35:24.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Snippets.cs",
-              "DocumentMoniker": "C:\\Users\\Oscar Alvarez\\source\\repos\\rememberCs\\LinqSnippets\\Snippets.cs",
-              "RelativeDocumentMoniker": "LinqSnippets\\Snippets.cs",
-              "ToolTip": "C:\\Users\\Oscar Alvarez\\source\\repos\\rememberCs\\LinqSnippets\\Snippets.cs",
-              "RelativeToolTip": "LinqSnippets\\Snippets.cs",
-              "ViewState": "AQIAAK8AAAAAAAAAAAAAAMMAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T14:04:08.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2024-03-11T22:18:16.802Z"
             }
           ]
         }
