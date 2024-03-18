@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using rememberCs.DataAccess;
 using rememberCs.Helpers;
 using rememberCs.Models.DataModels;
 
@@ -11,12 +12,17 @@ namespace rememberCs.Controllers
     [ApiController]
     public class AccountController : ControllerBase
     {
+        private readonly UniversityContext _context;
         private readonly JwtSettings _jwtSettings;
 
-        public AccountController(JwtSettings jwtSettings)
+        public AccountController(UniversityContext context, JwtSettings jwtSettings)
         {
+            _context = context;
             _jwtSettings = jwtSettings;
         }
+
+        // Example Users
+        // Todo : Change by real users
 
         private IEnumerable<Users> Loggings = new List<Users>() {
 
